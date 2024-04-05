@@ -1,0 +1,158 @@
+/* Todo component */
+
+/* .font-awesome{
+  color:white !important;
+} */
+
+body{
+  background-color: #814dd5;
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background-color:#814dd5;
+  color: white;
+}
+
+.Todo p {
+  margin: 0;
+  flex: 1;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.Todo div {
+  display: flex;
+  gap: 10px;
+}
+
+/* Styles for FontAwesome icons */
+.Todo div svg {
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+}
+
+.Todo div svg:hover {
+  color: rgb(245, 236, 236);
+}
+
+/* TodoWrapper component */
+.TodoWrapper {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: black;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: white;
+
+}
+
+.TodoWrapper h1{
+text-align: center;
+}
+
+/* Style for TodoForm */
+.TodoForm {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.todo-input {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.todo-btn {
+  padding: 8px 16px;
+  background-color: #3d1d5f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.todo-btn:hover {
+  background-color: #6023c3;
+}
+
+
+/* Style for TodoList */
+.TodoList {
+  list-style: none;
+  padding: 0;
+}
+
+.TodoItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.TodoItem:last-child {
+  border-bottom: none;
+}
+
+/* Style for checkbox and task text */
+.TodoItem label {
+  display: flex;
+  align-items: center;
+}
+
+.TodoItem input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+/* Style for delete button */
+.delete-btn {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.delete-btn:hover {
+  background-color: #d32f2f;
+}
+
+/* TodoForm component */
+.TodoForm {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.todo-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.todo-btn {
+  padding: 10px;
+  background-color: #814dd5;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+
